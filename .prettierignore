@@ -1,0 +1,14 @@
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Text files
+*.md
+*.txt
+
+# Files
+LICENSE
+
+# Aider files and directories
+.aider*
