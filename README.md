@@ -1,22 +1,24 @@
-# create-svelte
+# sveltekit-blog
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A simple blog app built with SvelteKit, Tailwind CSS and daisyui.
 
-## Creating a project
+## Getting started
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Clone repository
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git clone https://github.com/mardinitguy/sveltekit-blog.git
 ```
 
-## Developing
+### Install dependencies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+```bash
+npm i
+```
+
+### Start developing
+
+Once you've installed dependencies with any package manager, start a development server:
 
 ```bash
 npm run dev
@@ -25,14 +27,8 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Contributing
 
-To create a production version of your app:
+Any contributions you make are **greatly appreciated**.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Before contributing, please read the [Contrbuting](https://github.com/arsalanmohseni/sveltekit-blog/blob/main/docs/CONTRIBUTING.md).
