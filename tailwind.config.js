@@ -11,5 +11,5 @@ export default {
 		extend: {}
 	},
 
-	plugins: [fluid]
+	plugins: [fluid, require("daisyui")]
 };
