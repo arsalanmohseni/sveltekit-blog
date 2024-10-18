@@ -23,3 +23,6 @@ vite.config.ts.timestamp-*
 # Aider files and directories
 .aider*
 aider*/
+
+# Drawio files
+*.drawio
