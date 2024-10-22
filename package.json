@@ -37,5 +37,8 @@
 		"tailwindcss": "^3.4.14",
 		"vite": "^5.4.9"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@lottiefiles/dotlottie-svelte": "^0.3.21"
+	}
 }
