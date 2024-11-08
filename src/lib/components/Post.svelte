@@ -1,15 +1,22 @@
+<script>
+	export let title;
+	export let description;
+	export let imgsrc;
+	export let imgalt;
+</script>
+
 <div class="card card-compact w-96 bg-base-100 shadow-xl">
 	<figure>
 		<img
-			src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-			alt="Shoes"
+			src={imgsrc}
+			alt={imgalt}
 		/>
 	</figure>
 	<div class="card-body">
-		<h2 class="card-title">Shoes!</h2>
-		<p>If a dog chews shoes whose shoes does he choose?</p>
+		<h3 class="card-title">{title}</h3>
+		<p>{description}</p>
 		<div class="card-actions justify-end">
-			<button class="btn btn-primary">Buy Now</button>
+			<button class="btn btn-primary">Let's read!</button>
 		</div>
 	</div>
 </div>
